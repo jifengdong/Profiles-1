@@ -1,10 +1,5 @@
 version: "1"
-
-
 rules:
-
-- base: master
-
-upstream: DivineEngine:master
-
-mergeMethod: hardreset
+  - base: master
+    upstream: DivineEngine:master
+    mergeMethod: hardreset
